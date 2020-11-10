@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45AD7EC1255AAFE300D1F2E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AD7EC0255AAFE300D1F2E2 /* AppDelegate.swift */; };
+		45AD7EC3255AAFE300D1F2E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AD7EC2255AAFE300D1F2E2 /* SceneDelegate.swift */; };
+		45AD7EC5255AAFE300D1F2E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AD7EC4255AAFE300D1F2E2 /* ContentView.swift */; };
+		45AD7EC7255AAFEB00D1F2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AD7EC6255AAFEB00D1F2E2 /* Assets.xcassets */; };
+		45AD7ECA255AAFEB00D1F2E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AD7EC9255AAFEB00D1F2E2 /* Preview Assets.xcassets */; };
+		45AD7ECD255AAFEB00D1F2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45AD7ECB255AAFEB00D1F2E2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45AD7EBD255AAFE300D1F2E2 /* Cignifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cignifi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AD7EC0255AAFE300D1F2E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45AD7EC2255AAFE300D1F2E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45AD7EC4255AAFE300D1F2E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45AD7EC6255AAFEB00D1F2E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45AD7EC9255AAFEB00D1F2E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45AD7ECC255AAFEB00D1F2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45AD7ECE255AAFEB00D1F2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45AD7EBA255AAFE300D1F2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45AD7EB4255AAFE300D1F2E2 = {
+			isa = PBXGroup;
+			children = (
+				45AD7EBF255AAFE300D1F2E2 /* Cignifi */,
+				45AD7EBE255AAFE300D1F2E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45AD7EBE255AAFE300D1F2E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45AD7EBD255AAFE300D1F2E2 /* Cignifi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45AD7EBF255AAFE300D1F2E2 /* Cignifi */ = {
+			isa = PBXGroup;
+			children = (
+				45AD7EC0255AAFE300D1F2E2 /* AppDelegate.swift */,
+				45AD7EC2255AAFE300D1F2E2 /* SceneDelegate.swift */,
+				45AD7EC4255AAFE300D1F2E2 /* ContentView.swift */,
+				45AD7EC6255AAFEB00D1F2E2 /* Assets.xcassets */,
+				45AD7ECB255AAFEB00D1F2E2 /* LaunchScreen.storyboard */,
+				45AD7ECE255AAFEB00D1F2E2 /* Info.plist */,
+				45AD7EC8255AAFEB00D1F2E2 /* Preview Content */,
+			);
+			path = Cignifi;
+			sourceTree = "<group>";
+		};
+		45AD7EC8255AAFEB00D1F2E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45AD7EC9255AAFEB00D1F2E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45AD7EBC255AAFE300D1F2E2 /* Cignifi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AD7ED1255AAFEB00D1F2E2 /* Build configuration list for PBXNativeTarget "Cignifi" */;
+			buildPhases = (
+				45AD7EB9255AAFE300D1F2E2 /* Sources */,
+				45AD7EBA255AAFE300D1F2E2 /* Frameworks */,
+				45AD7EBB255AAFE300D1F2E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cignifi;
+			productName = Cignifi;
+			productReference = 45AD7EBD255AAFE300D1F2E2 /* Cignifi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45AD7EB5255AAFE300D1F2E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = 1di4r;
+				TargetAttributes = {
+					45AD7EBC255AAFE300D1F2E2 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 45AD7EB8255AAFE300D1F2E2 /* Build configuration list for PBXProject "Cignifi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45AD7EB4255AAFE300D1F2E2;
+			productRefGroup = 45AD7EBE255AAFE300D1F2E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45AD7EBC255AAFE300D1F2E2 /* Cignifi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45AD7EBB255AAFE300D1F2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AD7ECD255AAFEB00D1F2E2 /* LaunchScreen.storyboard in Resources */,
+				45AD7ECA255AAFEB00D1F2E2 /* Preview Assets.xcassets in Resources */,
+				45AD7EC7255AAFEB00D1F2E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45AD7EB9255AAFE300D1F2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AD7EC1255AAFE300D1F2E2 /* AppDelegate.swift in Sources */,
+				45AD7EC3255AAFE300D1F2E2 /* SceneDelegate.swift in Sources */,
+				45AD7EC5255AAFE300D1F2E2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45AD7ECB255AAFEB00D1F2E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45AD7ECC255AAFEB00D1F2E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45AD7ECF255AAFEB00D1F2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45AD7ED0255AAFEB00D1F2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45AD7ED2255AAFEB00D1F2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cignifi/Preview Content\"";
+				DEVELOPMENT_TEAM = HGYNZXM7W6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Cignifi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.1di4r.Cignifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45AD7ED3255AAFEB00D1F2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cignifi/Preview Content\"";
+				DEVELOPMENT_TEAM = HGYNZXM7W6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Cignifi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.1di4r.Cignifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45AD7EB8255AAFE300D1F2E2 /* Build configuration list for PBXProject "Cignifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AD7ECF255AAFEB00D1F2E2 /* Debug */,
+				45AD7ED0255AAFEB00D1F2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AD7ED1255AAFEB00D1F2E2 /* Build configuration list for PBXNativeTarget "Cignifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AD7ED2255AAFEB00D1F2E2 /* Debug */,
+				45AD7ED3255AAFEB00D1F2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45AD7EB5255AAFE300D1F2E2 /* Project object */;
+}
