@@ -41,7 +41,7 @@ struct signup: View {
                 }.padding(.top, 70)
                 
                 HStack{
-                    Text("Login to your Account")
+                    Text("Create your Account")
                         .font(.system(size: 24, design: .rounded))
                         .fontWeight(.semibold)
                         .foregroundColor(Color(#colorLiteral(red: 0.4, green: 0.4, blue: 0.4, alpha: 1)))
